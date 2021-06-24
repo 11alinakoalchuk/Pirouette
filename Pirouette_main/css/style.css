@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*MAIN*/
+.main__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/leafs_main.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.main__info-logo-img {
+  margin: 140px 0px 0px 130px;
+}
+
+.main__info-text {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  width: 566px;
+  color: #161616;
+  margin: 40px 126px 0px 130px;
+}
+
+.main__info-button {
+  width: 250px;
+  height: 50px;
+  font-family: Noto Sans;
+  font-weight: 500;
+  font-size: 15px;
+  color: #c1252a;
+  border: 1px solid #f3d3d4;
+  padding: 5px 37px 10px 0px;
+  margin: 50px 0px 163px 130px;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.main__info-button:hover {
+  background: #ffa7a7;
+}
+
+.main__info-button-img {
+  padding: 0px 18px 0px 40px;
+}
+
+.main__img {
+  margin-top: -55px;
+}
+
+.main__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__menu-wolt {
+  width: 360px;
+  height: 99px;
+  background-color: #00c2e8;
+  margin-left: 190px;
+}
+
+.main__menu-wolt-content {
+  display: flex;
+}
+
+.main__menu-wolt-text {
+  font-family: Noto Sans;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 14px;
+  color: #ffffff;
+  padding: 28px 70px 18px 30px;
+}
+
+.main__menu-wolt-img {
+  padding-top: 28px;
+}
+
+.main__menu-wolt-vector {
+  height: 11px;
+  padding-left: 30px;
+}
+
+.main__menu-lieferando {
+  width: 360px;
+  height: 99px;
+  background-color: #ff8000;
+}
+
+.main__menu-lieferando-content {
+  display: flex;
+}
+
+.main__menu-lieferando-text {
+  font-family: Noto Sans;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 14px;
+  color: #ffffff;
+  padding: 28px 70px 18px 30px;
+}
+
+.main__menu-lieferando-img {
+  padding-top: 24px;
+  padding-right: 30px;
+}
+
+.main__menu-lieferando-vector {
+  height: 11px;
+  padding-left: 30px;
+}
+
+.main__menu-uber {
+  width: 360px;
+  height: 99px;
+  background-color: #142328;
+  margin-right: 60px;
+}
+
+.main__menu-uber-content {
+  display: flex;
+}
+
+.main__menu-uber-text {
+  font-family: Noto Sans;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 14px;
+  color: #ffffff;
+  padding: 28px 70px 18px 30px;
+}
+
+.main__menu-uber-img {
+  padding-top: 23px;
+}
+
+.main__menu-uber-vector {
+  height: 11px;
+  padding-left: 30px;
+}
+
+/*ABOUT*/
+.about__content {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 90px;
+  background-image: url(../img/stamp.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.about__content-img {
+  padding-top: 110px;
+}
+
+.about__content-description {
+  padding: 310px 10px 110px 180px;
+}
+
+.about__content-header {
+  font-family: PT Serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  color: #161616;
+  padding-bottom: 22px;
+}
+
+.about__content-text {
+  font-family: Noto Sans;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #161616;
+  width: 470px;
+}
+
+/*FOOTER*/
+.footer__inner {
+  display: flex;
+  margin-top: 90px;
+  margin-left: 190px;
+}
+
+.footer__left {
+  margin-right: 170px;
+}
+
+.footer__left-img {
+  padding-top: 70px;
+  padding-bottom: 68px;
+}
+
+.footer__left-social {
+  display: flex;
+}
+
+.footer__left-social-fb {
+  padding-right: 62px;
+  padding-bottom: 37px;
+}
+
+.footer__left-copyright {
+  font-family: Lato;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #c4c4c4;
+}
+
+.footer__center {
+  padding-top: 120px;
+}
+
+.footer__center-street {
+  font-family: PT Serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  color: #161616;
+  padding-bottom: 20px;
+  width: 350px;
+}
+
+.footer__center-phone {
+  font-family: PT Serif;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  color: #161616;
+}
+
+.footer__right-map {
+  margin-left: -80px;
+}
+/*# sourceMappingURL=style.css.map */
